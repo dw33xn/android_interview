@@ -142,6 +142,8 @@ Queue用户模拟队列这种数据结构，队列通常是指“先进先出”
 #### 4.2.接口中定义的方法
 
 ![](http://upload-images.jianshu.io/upload_images/3985563-0505554930ca982e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+*remove()如果队列为空，报NoSuchElementException
 ## 三、Map集合
 ### 1.简介
 Map用户保存具有映射关系的数据，因此Map集合里保存着两组数，一组值用户保存Map里的key,另一组值用户保存Map里的value，key和value都可以是任何引用类型的数据。Map的key不允许重复，即同一个Map对象的任何两个key通过equals方法比较总是返回false。
